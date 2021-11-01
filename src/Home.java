@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author Udit Kulkarni
  */
 import java.util.Date;
 import com.itextpdf.text.BaseColor;
@@ -164,8 +164,6 @@ public class Home extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\logo1.PNG")); // NOI18N
-
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 0, 51)), "Employee Info", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24), new java.awt.Color(0, 102, 153))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -288,7 +286,6 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Distributor-report-icon.png")); // NOI18N
         jButton5.setText("Report");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -296,7 +293,6 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\print-icon-2.png")); // NOI18N
         jButton6.setText("Print");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -306,7 +302,6 @@ public class Home extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 255)), "Operations", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24), new java.awt.Color(255, 51, 51))); // NOI18N
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Actions-edit-clear-icon.png")); // NOI18N
         jButton4.setText("Clear");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -314,7 +309,6 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Actions-dialog-cancel-icon.png")); // NOI18N
         jButton2.setText("Delete");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -322,7 +316,6 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Save-icon.png")); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -330,7 +323,6 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jButton10.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\img\\File-Downloads-icon-1.png")); // NOI18N
         jButton10.setText("Update");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -387,14 +379,13 @@ public class Home extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel11.setText("Welcome to Tech - Solution");
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel11.setText("                       Welcome!");
 
         jLabel12.setText("( Active Maintanance Management Assistance )");
 
         jLabel13.setText("Easily Manage your Employee Directory..!");
 
-        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Editing-Attach-icon-1.png")); // NOI18N
         jButton7.setText("Attach");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -421,7 +412,6 @@ public class Home extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jButton8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\logout1.png")); // NOI18N
         jButton8.setText("Logout");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -431,7 +421,6 @@ public class Home extends javax.swing.JFrame {
 
         jLabel14.setText("Total Employee");
 
-        jButton9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Eye-2-icon-1.png")); // NOI18N
         jButton9.setText("Show");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -474,7 +463,6 @@ public class Home extends javax.swing.JFrame {
 
         jMenu1.setText("File");
 
-        jMenuItem1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Images\\Actions-dialog-close-icon.png")); // NOI18N
         jMenuItem1.setText("Exit");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -522,25 +510,21 @@ public class Home extends javax.swing.JFrame {
                             .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(22, 22, 22))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
+                                .addGap(67, 67, 67)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(67, 67, 67)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(jLabel13))
-                                            .addComponent(jLabel12)))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(92, 92, 92)
-                                        .addComponent(jLabel11)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+                                        .addGap(10, 10, 10)
+                                        .addComponent(jLabel13))
+                                    .addComponent(jLabel12))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(44, 44, 44)
                                 .addComponent(jDesktopPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -603,10 +587,10 @@ public class Home extends javax.swing.JFrame {
                                 .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton6)))))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(958, 684));
+        setSize(new java.awt.Dimension(994, 715));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -634,7 +618,7 @@ public class Home extends javax.swing.JFrame {
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
         try{
-           Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler "+"C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\Frequently-Asked-Questions.pdf"); 
+           Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler "+"C:\\Users\\UDIT\\Documents\\NetBeansProjects\\Employee_Management_System\\Frequently-Asked-Questions.pdf"); 
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "Error");
         }

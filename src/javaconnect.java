@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author Udit Kulkarni
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -19,7 +19,7 @@ public class javaconnect {
     public static Connection ConnecrDb(){
         try{
          Class.forName("org.sqlite.JDBC");
-         Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Employee_Management_System\\ems.sqlite");
+         Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\UDIT\\Documents\\NetBeansProjects\\Employee_Management_System\\ems.sqlite");
          return conn;
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
